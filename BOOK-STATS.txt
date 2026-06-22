@@ -1,2 +1,5 @@
-Original lesson word count across 53 chapters: 81,303
-Average per chapter: 1,534
+JavaScript Mastery by Xavier — Book Edition
+Chapters: 53
+Generated original readable lesson text: 239,935 words
+Structure: one formatted JavaScript source file per chapter
+Features: Book Mode, Learn & Practice, Code Lab, diagrams, print layout, UI sounds, author page.

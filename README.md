@@ -1,38 +1,47 @@
-# JavaScript Mastery by Mr Xavier
+<p align="center">
+  <img src="assets/banner/readme-banner.svg" alt="JavaScript Mastery by Xavier banner" width="100%">
+</p>
 
-A complete browser-based JavaScript learning book with **53 chapters** and **81,000+ words** of original lesson content.
+# JavaScript Mastery by Xavier
 
-## Live website
+A 53-chapter interactive JavaScript reading book created by **Mr Xavier**.
 
-https://mrxavier53.github.io/JavaScript_Mastery_by_Mr-Xavier/
+**Live book:** https://mrxavier53.github.io/JavaScript_Mastery_by_Mr-Xavier/
 
-## What is included
+## Highlights
 
-- 53 readable JavaScript chapters from beginner fundamentals through final projects
-- 81,000+ words of original course text inside the website
-- A desktop and mobile friendly hidden sidebar opened with the ☰ menu button
-- Home, Learn, Tasks, Quizzes, Code Lab, Progress, Badges, and Settings
-- In-browser JavaScript Code Lab with console-style output
-- Chapter build prompts with automatic pattern-based checking and XP rewards
-- Quick chapter checks and saved local progress
-- No account or database required
+- 53 chapter files in `js/chapters/` — each readable and editable on GitHub
+- Original long-form book lessons with diagrams and editor-style code examples
+- Distraction-free **Read the Book** mode with cover page and table of contents
+- Learn & Practice mode with in-page code challenges and quick checks
+- Browser-based JavaScript **Code Lab**
+- Reading progress, XP, badges, UI sounds, hover/click effects
+- Print button with clean light-theme book print layout / Save as PDF
+- JavaScript yellow icon, favicon, web-app manifest, and offline-friendly service worker
 
-## Deployment
+## Project structure
 
-This project is made for GitHub Pages.
+```text
+assets/
+  banner/               README banner
+  diagrams/             one original SVG diagram per chapter
+  icons/                JavaScript icon and favicon
+  sounds/               original short interface sounds
+css/
+  styles.css
+js/
+  app.js
+  chapter-index.js
+  chapters/
+    chapter-01-welcome-to-javascript.js
+    ...
+    chapter-53-where-to-go-next.js
+```
 
-1. Upload all files to the root of your repository.
-2. In GitHub repository settings, open **Pages**.
-3. Select **Deploy from a branch**.
-4. Choose `main` and `/(root)`.
-5. Save and wait for the deployment.
+## Open locally
 
-## Notes
+Open `index.html` in a modern browser. For module loading and service worker support, use GitHub Pages or a small local static server.
 
-- Progress is saved in the browser using `localStorage`. It is specific to each browser/device.
-- The Code Lab runs JavaScript in a browser worker. It does not run server languages such as Python, Java, or C++ on GitHub Pages.
-- Avoid running code copied from people or sites you do not trust.
+## Ownership
 
-## License
-
-MIT License. See `LICENSE`.
+Created by **Mr Xavier**. Keep credit and the project link when sharing modified versions.
